@@ -26,14 +26,18 @@ export interface LabelProps {
    * Custom Font text
    */
   fontColor ?: string
+  /**
+   * Background color
+   */
+  backgroundColor ?: string
 }
 
 const Label = ({ 
-    allCaps, color = 'primary', size = 'normal', title = 'Hello World!', fontColor
+    allCaps, color = 'primary', size = 'normal', title = 'Hello World!', fontColor, backgroundColor = 'transparent'
   }: LabelProps) => (
   <span 
     className={`label text-${color} ${size} `}
-    style = {fontColor ? { color: fontColor } : {}}
+    style = {{ color: fontColor, backgroundColor }}
   >
     { allCaps ? title.toUpperCase() : title }
   </span>

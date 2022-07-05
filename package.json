@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "start": "start-storybook -p 6006",
-    "build": "build-storybook"
+    "build": "build-storybook",
+    "chromatic": "npx chromatic --project-token=119ac7f0810e"
   },
   "dependencies": {
     "react": "^18.0.0",
@@ -24,7 +25,10 @@
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
     "babel-loader": "^8.2.5",
+    "chromatic": "^6.7.0",
     "typescript": "^4.6.3",
     "vite": "^2.9.9"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "storybook@0.0.0"
 }
