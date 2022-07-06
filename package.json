@@ -30,8 +30,7 @@
     "rename": "rename-files dist/styles '*.min.css' '.css' --verbose"
   },
   "peerDependencies": {
-    "react": ">=16",
-    "typescript": ">=4.0.0"
+    "react": ">=16"
   },
   "dependencies": {
     "react": "^18.0.0",
