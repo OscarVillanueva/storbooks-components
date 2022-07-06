@@ -32,7 +32,7 @@ export interface LabelProps {
   backgroundColor ?: string
 }
 
-const Label = ({ 
+export const Label = ({ 
     allCaps, color = 'primary', size = 'normal', title = 'Hello World!', fontColor, backgroundColor = 'transparent'
   }: LabelProps) => (
   <span 
